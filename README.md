@@ -25,6 +25,8 @@ In this project, you could replace the term `sink` with `segmentSink` to see how
 ).store(in: &cancellables)
 ```
 
-
+### Using `publisher.sink`
 ![default-sink](https://user-images.githubusercontent.com/236130/223008278-d98a6590-71c2-4144-8055-f2a4379e4cfb.gif)
+
+### Using `publisher.segmentSink`
 ![segment-sink](https://user-images.githubusercontent.com/236130/223008632-3328f6a1-cd44-4590-a0cf-69d56cf12f3a.gif)
